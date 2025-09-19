@@ -1,0 +1,16 @@
+{
+  "name": "SeuMice",
+  "version": "1.0",
+  "description": "SeuMice",
+  "main": "src/main.js",
+  "dependencies": {
+    "discord-rich-presence": "0.0.8"
+  },
+  "devDependencies": {},
+  "author": "Dit (Imazinho)",
+  "license": "ISC",
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "https://seumice.com.br"
+}
