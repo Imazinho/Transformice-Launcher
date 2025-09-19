@@ -1,16 +1,43 @@
 {
   "name": "SeuMice",
-  "version": "1.0",
+  "version": "1.0.0",
   "description": "SeuMice",
   "main": "src/main.js",
   "dependencies": {
     "discord-rich-presence": "0.0.8"
   },
-  "devDependencies": {},
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder"
+  },
+  "build": {
+    "appId": "com.standalone.seumice",
+    "productName": "SeuMice Launcher",
+    "files": [
+      "**/*",
+      "!node_modules/*/{test,__tests__}/**"
+    ],
+    "directories": {
+      "output": "dist"
+    },
+    "win": {
+      "target": "nsis",
+      "icon": "src/icon.ico"
+    },
+    "nsis": {
+      "oneClick": false,
+      "perMachine": false,
+      "allowToChangeInstallationDirectory": true
+    }
+  },
+  "devDependencies": {
+    "electron": "20.1.3",
+    "electron-builder": "^24.6.0"
+  },
   "author": "Dit (Imazinho)",
   "license": "ISC",
   "bugs": {
-    "url": ""
+    "url": "https://github.com/Imazinho/Transformice-Launcher/issues"
   },
   "homepage": "https://seumice.com.br"
 }
