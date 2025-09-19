@@ -46,9 +46,9 @@ npm start
 
 ## 🛠️ Build
 ```bash
-- **npm run build**
+npm run build
 
-- **Se quiser sem instalador coloque portable em "target": "nsis" no package.json.**
+Se quiser sem instalador coloque portable em "target": "nsis" no package.json.
 ```
 
 📄 Licença
