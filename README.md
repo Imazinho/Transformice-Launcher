@@ -1,5 +1,7 @@
 # Transformice-Launcher
 
+⚠️ Obs: PepperFlash foi descontinuado no Electron, esse projeto não funciona mais, sem realizar as alterações.
+
 Um launcher standalone feito com **Electron** (baseado no Chromium), desenvolvido para rodar o jogo **Transformice** de forma segura, leve e independente de navegadores externos.
 
 ## 🚀 Sobre
